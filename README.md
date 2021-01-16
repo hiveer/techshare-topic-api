@@ -29,7 +29,7 @@
     "owner": "Hiveer",
     "startDate": "2021-01-13",
     "vote": 15,
-    "detail": "more"
+    "detail": "more",
     "__v": 0
   },
   {
