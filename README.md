@@ -68,7 +68,7 @@
 }
 ```
 
-#### /topics/:topicID
+#### PATCH /topics/:topicID
 
 - payload:
 ```JSON
@@ -85,7 +85,7 @@
 }
 ```
 
-#### /topics/:topicID
+#### DELETE /topics/:topicID
 - payload:
 ```JSON
 {}
