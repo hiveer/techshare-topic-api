@@ -1,5 +1,5 @@
 ### API contractor
-#### GET /topics/:topicID
+#### GET `/topics/:topicID`
 - payload:
 ```JSON
 {}
