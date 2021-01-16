@@ -1,10 +1,10 @@
 ### API contractor
-- GET /topics/:topicID
-#### payload:
+#### GET /topics/:topicID
+- payload:
 ```JSON
 {}
 ```
-#### response:
+- response:
 ```JSON
 {
   "topicTitle": "Javascript",
@@ -15,12 +15,12 @@
 }
 ```
 
-- GET /topics
-#### payload:
+#### GET /topics
+- payload:
 ```JSON
 {}
 ```
-#### response:
+- response:
 ```JSON
 [
   {
@@ -44,8 +44,8 @@
 ]
 ```
 
-- POST /topics
-#### payload:
+#### POST /topics
+- payload:
 ```JSON
 {
   "topicTitle": "PHP",
@@ -55,7 +55,7 @@
   "detail": "Set up env"
 }
 ```
-#### response:
+- response:
 ```JSON
 {
   "_id": "600257278e67f9cc8a4ebd50",
@@ -68,15 +68,15 @@
 }
 ```
 
-- PATCH /topics/:topicID
+#### /topics/:topicID
 
-#### payload:
+- payload:
 ```JSON
 {
   "vote": 30,
 }
 ```
-#### response:
+- response:
 ```JSON
 {
   "n": 1,
@@ -85,12 +85,12 @@
 }
 ```
 
-- DELETE /topics/:topicID
-#### payload:
+#### /topics/:topicID
+- payload:
 ```JSON
 {}
 ```
-#### response:
+- response:
 ```JSON
 {
     "n": 1,
