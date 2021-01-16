@@ -15,7 +15,7 @@
 }
 ```
 
-#### GET /topics
+#### GET `/topics`
 - payload:
 ```JSON
 {}
@@ -44,7 +44,7 @@
 ]
 ```
 
-#### POST /topics
+#### POST `/topics`
 - payload:
 ```JSON
 {
@@ -68,7 +68,7 @@
 }
 ```
 
-#### PATCH /topics/:topicID
+#### PATCH `/topics/:topicID`
 
 - payload:
 ```JSON
@@ -85,7 +85,7 @@
 }
 ```
 
-#### DELETE /topics/:topicID
+#### DELETE `/topics/:topicID`
 - payload:
 ```JSON
 {}
