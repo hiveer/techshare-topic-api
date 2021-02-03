@@ -43,8 +43,8 @@ exports.createTopic = (params) => {
   });
 }
 
-exports.updateTopic = (params) => {
-  return Topic.updateOne(params)
+exports.updateTopic = (filter, params) => {
+  return Topic.updateOne(filter, params)
     .then((res) => {
       console.log(res);
       return res;

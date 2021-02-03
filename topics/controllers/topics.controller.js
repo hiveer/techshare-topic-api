@@ -27,10 +27,10 @@ exports.createTopic = (req, res) => {
 
 exports.updateTopic = (req, res) => {
   let params = req.body;
-  params['_id'] = req.params['topicId'];
   console.log('update: req payload');
   console.log(params);
-  TopicModel.updateTopic(params)
+  console.log(req.params['topicId']);
+  TopicModel.updateTopic({'_id': req.params['topicId']}, params)
     .then((result) => {
       console.log(result);
       res.status(200).send(result);
