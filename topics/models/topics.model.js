@@ -6,7 +6,8 @@ const topicSchema = new Schema({
     owner: String,
     startDate: String,
     vote: Number,
-    detail: String
+    detail: String,
+    status: {stye: String, default: 'active'}
 });
 
 //topicSchema.findById = function (cb) {
