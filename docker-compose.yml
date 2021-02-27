@@ -5,6 +5,7 @@ services:
     environment:
       - MONGO_HOSTNAME=mongo
       - MONGO_PORT=27017
+    command: npm start
     ports:
       - "3600:3600"
     links:
